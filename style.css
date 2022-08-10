@@ -2,18 +2,29 @@ body{
   background-color: rgba(200,100,200,0.5)
 }
 .card-title{
-    font-size: xxx-large;
-    font-weight: 100;
+    font-size: xx-large;
+    font-weight: 600;
     font-style: italic;
 }
 .card-body{
-  color: rgba(red, green, blue, alpha);
+  color: rgba(rgb(0, 255, 60), rgb(68, 0, 128), rgb(255, 0, 51), alpha);
 }
 .card-text {
-  font-size: 1.2rem;
-  color: blue;
+  /* font-size: 1.2rem; */
+  color: rgba(253, 170, 6, 0.974);
   font-weight: bold;
+  font-size: xxx-large;
+  font-style: italic;
+  font-weight: 600;
 }
-#Note_list{
-  color:rgba(255, 0, 0, 0.6);;
+#note-priority{
+  color:rgba(255, 0, 144, 0.749);
+}
+#notes-desc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
 }
